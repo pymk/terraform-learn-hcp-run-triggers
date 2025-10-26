@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "workspace_name" {
   description = "Name of the source workspace to query."
   type        = string
-  default     = "learn-hcp-terraform"
+  default     = "terraform-learn-hcp"
 }
 
 variable "organization_name" {
